@@ -47,7 +47,7 @@ end
 function _draw()
 	cls()
 	map(0,0, 0,0, 16,16)
-	spr(1,bmx,bmy)
+	spr(1,bmx,bmy,1,1,(dx<0))
 end
 
 function _update()
